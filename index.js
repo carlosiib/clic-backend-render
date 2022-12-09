@@ -14,7 +14,7 @@ const port = process.env.PORT ?? 5000;
  * ENDPOINTS
  * DEV - "http://localhost:5000/"
  * -PRODUCTION FRONT - https://clic-readers-wholesale.netlify.app
- * PRODUCTION  BACK - "https://clic-backend-rwl.up.railway.app"
+ * PRODUCTION  BACK - "https://clic-backend-render.onrender.com/"
  */
 
 app.use(cors({
