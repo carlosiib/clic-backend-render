@@ -29,11 +29,11 @@ const jsonParser = bodyParser.json()
 const USER_URL = process.env.USER_URL;
 const ACTIVATION_URL = process.env.ACTIVATION_URL;*/
 
-const CUSTOMERS_URL = 'https://c1d75c3ba3b0befea38d7a84700201fb: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@clic-readers-wholesale1.myshopify.com/admin/api/2019-10/customers.json?limit=30';
+const CUSTOMERS_URL = process.env.CUSTOMERS_URL;
 
-const USER_URL = 'https://c1d75c3ba3b0befea38d7a84700201fb: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@clic-readers-wholesale1.myshopify.com/admin/api/2019-10/customers/';
+const USER_URL = process.env.USER_URL;
 
-const ACTIVATION_URL = 'https://c1d75c3ba3b0befea38d7a84700201fb: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@clic-readers-wholesale1.myshopify.com/admin/api/2019-10/customers/'
+const ACTIVATION_URL = process.env.ACTIVATION_URL
 
 
 app.get('/', async (req, res) => {
