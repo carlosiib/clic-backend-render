@@ -35,10 +35,6 @@ const USER_URL = process.env.USER_URL;
 
 const ACTIVATION_URL = process.env.ACTIVATION_URL
 
-const ALTERNATE = process.env.ALTERNATE
-console.log("alternate", ALTERNATE)
-
-
 app.get('/', async (req, res) => {
   let arr = []
   let paginationURLS = []
